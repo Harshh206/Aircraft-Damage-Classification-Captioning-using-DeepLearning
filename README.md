@@ -1,14 +1,36 @@
-# Introduction
-Building an AI system to classify aircraft damage using VGG16 and generate captions using a Transformer model.
+## 📌 Overview
+This project focuses on building an intelligent AI system to detect, classify, and describe aircraft damage using deep learning techniques.
 
-# Project Overview
-Aircraft damage detection plays a critical role in ensuring aviation safety and operational efficiency. Traditional inspection methods are often time-consuming, costly, and susceptible to human error.\
-In this project, I focus on automating the detection and classification of aircraft damage into two categories: "dent" and "crack". I leverage the power of transfer learning by using a pre-trained VGG16 model for feature extraction and image classification.
+It combines:
+- Computer Vision (VGG16) for classification  
+- Transformer-based models (BLIP) for image captioning  
 
-# Aim of the Project
-The primary goal is to build an accurate model for automated aircraft damage classification.\
-Develop a VGG16-based deep learning model for image classification Use feature extraction to enhance performance Integrate a Transformer model for caption generation Design a system applicable to real-world aviation inspection
+The system classifies aircraft damage into:
+- Dent
+- Crack
 
-# Final Output
-A trained model capable of classifying aircraft images into "dent" and "crack" categories, enabling automated aircraft damage detection.\
-A Transformer-based model that generates captions and summaries of images
+and generates meaningful captions or summaries.
+
+---
+
+## 🎯 Objectives
+- Build an automated aircraft damage classification system  
+- Use transfer learning (VGG16)  
+- Improve prediction accuracy  
+- Generate captions using BLIP  
+- Create a scalable solution  
+
+---
+
+## 🧠 Tech Stack
+- Python
+- TensorFlow / Keras
+- PyTorch
+- Transformers
+- NumPy, Pandas
+- Matplotlib, Pillow
+
+---
+## 📊 Final Output
+-A trained model capable of classifying aircraft images into "dent" and "crack" categories, enabling automated aircraft damage detection.
+-A Transformer-based model that generates captions and summaries of images
